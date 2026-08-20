@@ -2,6 +2,8 @@
 
 A native macOS screen saver (`MNISTMatrix.saver`) that recreates *The Matrix* "[digital rain](https://en.wikipedia.org/wiki/Digital_rain)" effect using handwritten digits from the [**MNIST dataset**](https://en.wikipedia.org/wiki/MNIST_database).
 
+https://github.com/user-attachments/assets/7f075083-ae36-46e4-92ab-50a61d03e622
+
 ![macOS Screen Saver](https://img.shields.io/badge/platform-macOS%2012.0%2B-blue)
 ![Language](https://img.shields.io/badge/language-Swift%205-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
