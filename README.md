@@ -8,7 +8,7 @@ A native macOS screen saver (`MNISTMatrix.saver`) that recreates *The Matrix* "[
 
 ## Quick Start & Building
 
-If you're on an Apple Silicon Mac, you can simply download the pre-built screen saver that's already included in this repository ([`build/MNISTMatrix.saver`](build/MNISTMatrix.saver)). 
+If you're on an Apple Silicon Mac, you can simply download and unzip the pre-built screen saver that's already included in this repository ([`build/MNISTMatrix.saver`](build/MNISTMatrix.saver)). 
 
 If you're on an Intel based Mac, or you just want to build it yourself, you can do so with the following commands:
 
