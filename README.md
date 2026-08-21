@@ -1,6 +1,6 @@
 # MNIST Matrix Screen Saver
 
-A native macOS screen saver (`MNISTMatrix.saver`) that recreates *The Matrix* "[digital rain](https://en.wikipedia.org/wiki/Digital_rain)" effect using handwritten digits from the [**MNIST dataset**](https://en.wikipedia.org/wiki/MNIST_database).
+A native macOS screen saver that recreates *The Matrix* "[digital rain](https://en.wikipedia.org/wiki/Digital_rain)" effect using handwritten digits from the [MNIST dataset](https://en.wikipedia.org/wiki/MNIST_database).
 
 https://github.com/user-attachments/assets/7f075083-ae36-46e4-92ab-50a61d03e622
 
@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/7f075083-ae36-46e4-92ab-50a61d03e622
 
 ## Quick Start & Building
 
-If you're on an Apple Silicon Mac, you can simply download and unzip the pre-built screen saver that's already included in this repository ([`build/MNISTMatrix.saver`](build/MNISTMatrix.saver)). 
+If you're on an Apple Silicon Mac, you can simply download and unzip the pre-built screen saver that's already included in this repository ([`build/MNISTMatrix.saver.zip`](build/MNISTMatrix.saver.zip)). 
 
 If you're on an Intel based Mac, or you just want to build it yourself, you can do so with the following commands:
 
@@ -49,7 +49,7 @@ All visual parameters are defined at the top of [`src/MNISTMatrixSaverView.swift
 
 ## Generating the Binary Atlas (Optional)
 
-The pre-built `resources/mnist_atlas.bin` asset atlas (7.49 MB) is included in the repository. If however, you want to extract `resources/mnist_atlas.bin` yourself from the raw MNIST dataset (`data/test-00000-of-00001.parquet`):
+The pre-built [`resources/mnist_atlas.bin`](resources/mnist_atlas.bin) asset atlas (7.49 MB) is included in the repository. If however, you want to extract `resources/mnist_atlas.bin` yourself from the raw MNIST dataset ([`data/test-00000-of-00001.parquet`](data/test-00000-of-00001.parquet)):
 
 ```bash
 # Requires Python 3 with pyarrow and Pillow
